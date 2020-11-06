@@ -1,0 +1,14 @@
+
+.hero {
+    background-image: url(../images/rectangle.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.navbar{
+    padding-left: 53px;
+    padding-top: 20px;
+}
