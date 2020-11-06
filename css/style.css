@@ -1,12 +1,16 @@
+html,body{
+    height: 100%;
+}
 
 .hero {
     background-image: url(../images/rectangle.png);
     height: 100%;
-    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    
+    
+   
 }
 
 .navbar{
@@ -27,9 +31,14 @@ span.navbar-text{
     font-size: small;
 }
 
-div.col-sm-6{
-    padding-top: 200px;
+div#heroText.col-sm-6{
+    padding-top: 300px;
     color: white;
+}
+div#heroImage.col-sm-6{
+    padding-top: 230px;
+    padding-left:400px
+    
 }
 
 button.btn.default{
@@ -40,3 +49,35 @@ button.btn.default{
     border-radius: 0%;
 }
 
+
+div#myBorder.container{
+    border-right-style: solid;
+    border-color: white;
+    border-right-width: 2px;
+    padding-top: 300px;
+    
+}
+.mainBlack{
+   color: #767676;
+  
+}
+
+.mainBlue{
+    color: #0B094F;
+}
+
+div#mainOne.col-sm-6{
+    padding-top: 180px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+}
+
+div#mainTwo.col-sm-6{
+    padding-top: 300px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+}
+
+a.mainBlue{
+    padding-left: 350px;
+}
