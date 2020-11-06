@@ -2,6 +2,7 @@
 .hero {
     background-image: url(../images/rectangle.png);
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,3 +13,30 @@
     padding-left: 53px;
     padding-top: 20px;
 }
+
+a.navbar-brand{
+    padding-right: 50px;
+}
+
+a.nav-link, span.navbar-text{
+    color: white;
+}
+
+span.navbar-text{
+    padding-left: 150px;
+    font-size: small;
+}
+
+div.col-sm-6{
+    padding-top: 200px;
+    color: white;
+}
+
+button.btn.default{
+    margin-top: 90px;
+    padding: 15px 70px;
+    background-color: white;
+    font-size: small;
+    border-radius: 0%;
+}
+
