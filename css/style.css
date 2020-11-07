@@ -81,3 +81,12 @@ div#mainTwo.col-sm-6{
 a.mainBlue{
     padding-left: 350px;
 }
+
+div#mainThree.col-sm-6{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+div#mainFour.col-sm-6{
+    padding-bottom: 100px;
+}
