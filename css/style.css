@@ -1,5 +1,6 @@
 html,body{
     height: 100%;
+    background-color: #E5E5E5;
 }
 
 .hero {
@@ -32,13 +33,16 @@ span.navbar-text{
 }
 
 div#heroText.col-sm-6{
-    padding-top: 300px;
+    margin-top: 200px;
     color: white;
 }
 div#heroImage.col-sm-6{
-    padding-top: 230px;
+    margin-top:  150px;
     padding-left:400px
     
+}
+div#iconsFix{
+    margin-left: 125px;
 }
 
 button.btn.default{
@@ -84,9 +88,80 @@ a.mainBlue{
 
 div#mainThree.col-sm-6{
     padding-left: 50px;
+    padding-right: 45px;
     padding-top: 50px;
     padding-bottom: 100px;
 }
 div#mainFour.col-sm-6{
     padding-bottom: 100px;
+}
+
+div#mainFive{
+    text-align: center;
+    margin-bottom: 100px;
+}
+div#mainSeven.col-sm-4{
+    margin-top: 300px;
+}
+h3{
+    margin-bottom: 20px;
+}
+
+.spaceOut{
+    margin-bottom: 80px;
+}
+button.arrowBtn{
+    background-color: #cecece;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    border:none
+    
+}
+#alignBtn{
+    margin-left: 194px;
+    margin-right: 3px;
+}
+
+section.maskFour{
+    background-color: #cecece;
+    margin-top: -80px;
+    padding-bottom: 100px;
+    
+    
+}
+
+div#mainNine.col-sm-6{
+    margin-top: 430px;
+    padding-bottom: 100px;
+    
+    
+}
+
+div#mainTen.col-sm-6{
+    margin-top: 230px;
+    
+
+}
+
+.huge{
+    font-size: xx-large;
+    font-family: lato;
+}
+#huge2K{
+    font-size: 150px;
+  
+}
+
+
+#fontsOne{
+    margin-bottom: -70px;
+    padding-top: 100px;
+
+}
+
+#fontsTwo{
+    margin-top: -70px;
+    padding-bottom: 100px;
+
 }
