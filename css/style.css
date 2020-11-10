@@ -1,6 +1,6 @@
 html,body{
     height: 100%;
-    background-color: #E5E5E5;
+    
 }
 
 .hero {
@@ -163,5 +163,91 @@ div#mainTen.col-sm-6{
 #fontsTwo{
     margin-top: -70px;
     padding-bottom: 100px;
+
+}
+#primevalLogo{
+    padding-left: 10px;
+    padding-top: 55px;
+
+}
+
+#dixxonsLogo{
+    padding-top: 55px;
+}
+
+#kinnoLogo{
+    padding-top: 65px;
+
+}
+
+#afconLogo{
+    padding-top: 10px;
+
+}
+
+#churchLogo{
+    padding-left: 40px;
+
+}
+
+#miifLogo{
+    padding-left: 15px;
+
+}
+
+#mhoseenLogo{
+    padding-top: 35px;
+    padding-left: 25px;
+
+}
+
+#funLogo{
+    padding-left: 25px;
+
+}
+
+#burgerLogo{
+    padding-left: 15px;
+
+}
+
+section.maskSix{
+    padding-bottom: 200px;
+}
+#secondLineLogo{
+    margin-top: 50px;
+}
+footer{
+    background-color: #2A2865;
+    
+}
+#pageEnd{
+    margin-top: 15px;
+}
+
+.infoLast{
+    margin-top: 20px;
+}
+#hrLine{
+    border-top: 1px solid #ffffff;
+}
+
+.spaceBelow{
+    margin-bottom: 100px;
+}
+
+.linkSpaceTop{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.linkColor{
+    
+    color: white;
+
+}
+.imageSpace{
+    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
