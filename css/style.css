@@ -1,404 +1,381 @@
-html,body{
+html,
+body {
     height: 100%;
-    
 }
 
 .hero {
     background-image: url(../images/rectangle.png);
-    height: 100%;
     width: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
-   
-}
-
-.navbar{
-    padding-left: 6%;
-    padding-top: 1%;
-}
-
-div.logoNav{
-    margin-right: 10%;
-}
-
-/* a.navbar-brand{
-   margin-right: 60px;
-   
-} */
-
-a.nav-link, span.navbar-text{
-    color: white;
-}
-
-span.navbar-text{
-    padding-left: 12%;
-    font-size: 10px;
-}
-
-div#heroText.col-lg-6.md-12.sm-12{
-    margin-top: 20%;
-    color: white;
-}
-div#heroImage.col-lg-6.md-12.sm-12{
-    margin-top:  10%;
-    padding-left:35%
-    
-}
-div#iconsFix{
-    margin-left: 50%;
+    margin-top: -5%;
 
 }
 
-button.btn.default{
+.globalSpace {
     margin-top: 10%;
-    padding: 4% 13%;
-    background-color: white;
-    font-size: small;
-    border-radius: 0%;
+    margin-bottom: 10%;
+
 }
 
+.globalSideOne {
+    padding-left: 10%;
 
-div#myBorder.container{
-    border-right-style: solid;
-    border-color: white;
-    border-right-width: 2px;
-    padding-top: 250%;
-    
-}
-.mainBlack{
-   color: #767676;
-  
 }
 
-.mainBlue{
+.globalSideTwo {
+    padding-right: 10%;
+
+}
+
+.globalGray {
+    color: #767676;
+}
+
+.globalBlue {
     color: #0B094F;
 }
 
-div#mainOne.col-lg-6.md-12.sm-12{
-    margin-top: 15%;
-    margin-bottom: 28%;
-    padding-left: 5%;
+.globalImageSide {
+    padding-rigth: 0px !important;
 }
 
-div#mainTwo.col-lg-6.md-12.sm-12{
-    margin-top: 25%;
-    padding-right: 5%;
-    margin-bottom: 24%;
+div.logoNav {
+    margin-left: 5%;
+    margin-right: 6%;
+
+
 }
 
-a.mainBlue{
-    padding-left:75%;
+a.nav-link {
+    color: #FFFFFF;
 }
 
-div#mainThree.col-lg-6.md-12.sm-12{
-    padding-left: 5%;
-    padding-right: 4.5%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-div#mainFour.col-lg-6.md-12.sm-12{
-    margin-bottom: 10%;
+span.navbar-text {
+    color: #FFFFFF;
+    padding-left: 17%;
 }
 
-div#mainFive{
-    text-align: center;
-    margin-bottom: 10%;
+
+.heroText {
+    margin-top: 23%;
+    color: #FFFFFF;
+    padding-left: 7%;
 }
-div#mainSeven.col-lg-4.md-12.sm-12 {
+
+button.btn.default {
+    margin-top: 10%;
+    padding: 2% 10%;
+    background-color: #FFFFFF;
+    border-radius: 0%;
+}
+
+div.container.myBorder {
+    border-right-style: solid;
+    border-color: #FFFFFF;
+    margin-top: 30%;
+    padding-top: 60%;
+}
+
+div#moveHeroBorder.col-lg-6.md-12.sm-12 {
+    padding-right: 7%;
+}
+
+#topSpaceDog {
     margin-top: 30%;
 }
-h3{
-    margin-bottom: 2%;
-}
 
-.spaceOut{
-    margin-bottom: 8%;
-}
-button.arrowBtn{
+#makeGray {
     background-color: #cecece;
-    width: 40px;
-    height: 40px;
-    margin-top: 5%;
-    border:none
-    
-}
-#alignBtn{
-    margin-left: 55%;
+    ;
+    margin-top: -15%;
 }
 
-section.maskFour{
-    background-color: #cecece;
-    margin-top: -8%;
-    padding-bottom: 7%;
-    
-    
+.insideSpace {
+    margin-top: 15%;
+    margin-bottom: 10%;
 }
 
-div#mainNine.col-lg-6.md-12.sm-12{
-    margin-top: 43%;
-    padding-bottom: 10%;
-    
-    
-}
-
-div#mainTen.col-lg-6.md-12.sm-12{
-    margin-top: 23%;
-    
-
-}
-
-.huge{
-    font-size: 30px;
+h1.globalBlue.bigText {
+    font-size: 1000%;
     font-family: lato;
 }
-#huge2K{
-    font-size: 150px;
-  
+
+p.globalGray.anodaOne {
+    font-size: 200%;
+    font-family: lato;
 }
 
-
-#fontsOne{
-    margin-bottom: -5%;
-    margin-top: 10%;
-
+div.col-xs-2 {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
-#fontsTwo{
-    margin-top: -5%;
-    margin-bottom: 10%;
-
-}
-#primevalLogo{
-    padding-left: 9%;
-    padding-top: 30%;
-
-}
-
-#dixxonsLogo{
-    padding-top: 30%;
-}
-
-#kinnoLogo{
-    padding-top: 38%;
-
-}
-
-#afconLogo{
-    padding-top: 10%;
-
-}
-
-#churchLogo{
-    padding-left: 25%;
-    padding-top: 5%;
-
-}
-
-#miifLogo{
-    padding-left: 15%;
-
-}
-
-#mhoseenLogo{
-    padding-top: 20%;
-    padding-left: 13%;
-
-}
-
-#funLogo{
-    padding-left: 25%;
-
-}
-
-#burgerLogo{
-    padding-left: 15%;
-
-}
-
-section.maskSix{
-    padding-bottom: 20%;
-}
-#secondLineLogo{
-    margin-top: 5%;
-}
-footer{
+footer {
     background-color: #2A2865;
-    
-}
-#pageEnd{
-    margin-top: 1.5%;
+
 }
 
-.infoLast{
-    margin-top: 2%;
+.footerText {
+    margin-top: 10%;
+    color: #FFFFFF;
+    padding-left: 7%;
+
 }
-#hrLine{
+
+.footerLine {
     border-top: 1px solid #ffffff;
 }
 
-.spaceBelow{
+button.btn.default.footerBtn {
     margin-bottom: 10%;
+    padding: 2% 10%;
+    background-color: #FFFFFF;
+    border-radius: 0%;
 }
 
-.linkSpaceTop{
+.linkColor {
+    color: #FFFFFF;
+}
+
+.linkSpace {
     margin-top: 5%;
     margin-bottom: 5%;
-    
-}
-.linkColor{
-    
-    color: white;
 
 }
-.imageSpace{
+
+.imageSpace {
     margin-top: 1.5%;
     margin-bottom: 1.5%;
 
 }
+
+/* services page Css */
 .servicesHero {
     background-image: url(../images/dog.png);
-    height: 100%;
     width: 100%;
-    background-position: center;
+    height: 100vh;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
-   
+    margin-top: -5%;
+
 }
 
-.servicesMask{
-    margin-top: 15%;
-    margin-bottom: 15%;
+.alignImg {
+    text-align: end;
 }
 
+
+/* about page Css */
 .aboutHero {
     background-image: url(../images/military.png);
-    height: 100%;
     width: 100%;
+    height: 100vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5%;
+
+}
+
+.fixText{
+    padding-left: 5%;
+    padding-right:5%
+
+}
+
+/* services-2 page Css */
+#services-2MakeGray {
+    background-color: #cecece;
+}
+
+
+/* careers page Css */
+.careersHero {
+    background-image: url(../images/careers.png);
+    width: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -5%;
+
+}
+
+.fixCard{
+    margin:1% 9%;
+    background-color: #FFFFFF;
+}
+
+button.btn.btn-primary.cardBtn{
+    background-color: #2A2865;
+    border-radius: 0%;
+    width:50%;
+    height:70%;
+    margin-left:30%;
+
+}
+
+
+/* careers-2 page Css */
+.careers-2Hero {
+    background-image: url(../images/dog.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5%;
+
+}
+
+.cardSpace{
+    margin-bottom: 8%;
+
+}
+
+/* contact-us page css */
+a.nav-link.contact {
+    color:#2A2865;
     
+}
+
+span.navbar-text.contactTwo {
+    color:#2A2865;
     
-   
 }
 
-.aboutMask{
-    margin-top: 15%;
-    margin-bottom: 5%;
-}
 
-.aboutMaskOne{
-    margin-bottom: 10%;
-}
 
-/* media tablet */
-@media screen and (max-width: 768px) {
-    div#heroText.col-lg-6.md-12.sm-12{
-        font-size: 25px;
-        
+ 
+
+
+
+/*media ipad pro*/
+
+@media screen and (max-width: 1024px) {
+    nav.navbar.navbar-expand-md {
+        background-color: #2A2865;
     }
 
-    div#heroText.col-lg-6.md-12.sm-12{
-        margin-top: 350px;
-        color: white;
-    }
-
-    div#heroImage.col-lg-6.md-12.sm-12{
+    span.navbar-text {
         display: none;
     }
-    div.col-sm-3{
-        display:none
-    }
 
-
-    button.btn.default{
-    display: none;
+    div#moveHeroBorder.col-lg-6.md-12.sm-12 {
+        display: none;
 
     }
 
-    div#mainOne.col-lg-6.md-12.sm-12 {
-        margin-top: 80px;
-        margin-bottom: 25px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+    .hero {
+        height: 80vh;
+    }
+
+    #hiddenLogo {
+        display: none;
+    }
+
+    /* services page Css */
+
+    .servicesHero {
+        height: 80vh;
+    }
+
+
+    /* about page Css */
+    .aboutHero {
+        height: 80vh;
+    }
+
+    .careersHero{
+        height: 80vh;
+
+    }
+
+    .careers-2Hero{
+        height: 80vh;
+    }
+}
+
+
+/*media tablets*/
+@media screen and (max-width: 768px) {
+    nav.navbar.navbar-expand-md {
+        background-color: #2A2865;
+    }
+
+    span.navbar-text {
+        display: none;
+    }
+
+
+    div#moveHeroBorder.col-lg-6.md-12.sm-12 {
+        display: none;
+
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .globalSideOne {
+        padding: 0% 10%;
+    }
+
+    .globalSideTwo {
+        padding: 0% 10%;
+    }
+
+    .globalGray {
+        color: #767676;
         text-align: center;
-        font-weight: 700;
-      
     }
 
-    div#mainTwo.col-lg-6.md-12.sm-12 {
-        margin-top: 40px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+    .globalBlue {
+        color: #0B094F;
         text-align: center;
-        font-size: 25px;
-        font-weight: 700;
-
     }
 
-    div#mainThree.col-lg-6.md-12.sm-12{
+    #topSpaceDog {
+        margin-top: 5%;
+    }
+
+    #spaceTop {
+        margin-top: 5%;
+    }
+
+    #hiddenLogo {
+        display: none;
+    }
+
+    /* services page Css */
+
+    .servicesHero {
+        height: 80vh;
+    }
+
+    .centerImg {
         text-align: center;
-        font-size: 25px;
-        font-weight:700
+    }
+
+
+    /* about page Css */
+
+    .aboutHero {
+        height: 80vh;
+    }
+
+    .careersHero{
+        height: 80vh;
 
     }
 
-    div#mainFour.col-lg-6.md-12.sm-12{
-        
-    }
+    .careers-2Hero{
+        height: 80vh;
 
-    div#mainFive.col-lg-6.md-12.sm-12{
-        margin-top:50px
-
-    }
-
-    h3.mainBlack{
-        margin-top: 30px
-        font-weight: 700
-    }
-
-    p.mainBlack.spaceOut{
-        font-size: 25px;
-        font-weight: 700;
-    }
-
-    div#mainSeven.col-lg-4.md-12.sm-12{
-        margin-top: 90px;
-    }
-
-    div#mainEight.col-lg-4.md-12.sm-12{
-        margin-top: 90px;
-        margin-bottom: 90px;
-    }
-
-    div#mainNine.col-lg-6.md-12.sm-12{
-        margin-top: 100px
-
-    }
-
-    p.mainBlue{
-        font-size: 25px;
-        font-weight: 700;
-    }
-
-    p.mainBlack{
-        font-size: 25px;
-        font-weight: 700;
-    }
-    
-    div#mainTen.col-lg-6.md-12.sm-12{
-        margin-top: 0%;
-        
-
-    }
-
-    #primevalLogo{
-        padding-left: 40px;
     }
 
 
@@ -407,26 +384,85 @@ footer{
 
 
 
-   
 
 
-    
-    
+
 
 }
 
 
 /* media phone */
-@media screen and (max-width:480px){
-    div#heroImage.col-lg-6.md-12.sm-12{
+@media screen and (max-width:480px) {
+    .hero {
+        height: 50vh;
+    }
+
+    nav.navbar.navbar-expand-md {
+        background-color: #2A2865;
+    }
+
+    span.navbar-text {
         display: none;
     }
 
-    button.btn.default{
-        display: none;
-        
-        }
 
+    div#moveHeroBorder.col-lg-6.md-12.sm-12 {
+        display: none;
+
+    }
+
+    button.btn.default {
+        display: none;
+    }
+
+    .globalGray {
+        color: #767676;
+        text-align: center;
+    }
+
+    .globalBlue {
+        color: #0B094F;
+        text-align: center;
+    }
+
+    #topSpaceDog {
+        margin-top: 5%;
+    }
+
+    #spaceTop {
+        margin-top: 5%;
+    }
+
+    #hiddenLogo {
+        display: none;
+    }
+
+    /* services page Css */
+
+
+    .servicesHero {
+        height: 50vh;
+    }
+
+    .centerImg {
+        text-align: center;
+    }
+
+    /* about page Css */
+
+    .aboutHero {
+        height: 50vh;
+    }
+
+    .careersHero{
+        height: 50vh;
+
+    }
+
+    .careers-2Hero{
+        height: 50vh;
+
+    }
 
 
 }
