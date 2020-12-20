@@ -200,6 +200,24 @@ a.globalBlue{
     padding-right:5%
 
 }
+.insideFixText{
+    padding-left: 10%;
+    padding-right:10%
+
+}
+
+.aboutGlobalSideOne {
+    padding-left: 15%;
+    padding-right: 5%;
+
+}
+
+.aboutGlobalSideTwo {
+    padding-right: 15%;
+    padding-left: 5%;
+
+}
+
 
 /* services-2 page Css */
 #services-2MakeGray {
