@@ -21,12 +21,12 @@ body {
 }
 
 .globalSideOne {
-    padding-left: 10%;
+    padding-left: 15%;
 
 }
 
 .globalSideTwo {
-    padding-right: 10%;
+    padding-right: 15%;
 
 }
 
@@ -65,7 +65,7 @@ span.navbar-text {
     padding-left: 7%;
 }
 
-button.btn.default {
+#heroBtn{
     margin-top: 10%;
     padding: 2% 10%;
     background-color: #FFFFFF;
@@ -100,12 +100,12 @@ div#moveHeroBorder.col-lg-6.md-12.sm-12 {
 
 h1.globalBlue.bigText {
     font-size: 1000%;
-    font-family: lato;
+    font-family: Lato;
 }
 
 p.globalGray.anodaOne {
     font-size: 200%;
-    font-family: lato;
+    font-family: Lato;
 }
 
 div.col-xs-2 {
@@ -129,11 +129,11 @@ footer {
     border-top: 1px solid #ffffff;
 }
 
-button.btn.default.footerBtn {
+#footerBtn{
     margin-bottom: 10%;
-    padding: 2% 10%;
+    padding: 2% 11%;
     background-color: #FFFFFF;
-    border-radius: 0%;
+    border-radius: 0%
 }
 
 .linkColor {
@@ -150,6 +150,20 @@ button.btn.default.footerBtn {
     margin-top: 1.5%;
     margin-bottom: 1.5%;
 
+}
+
+.identicalOne{
+    margin-top: 15%;
+}
+.identicalTwo{
+    padding-right: 2.2%;
+}
+
+.identicalThree{
+    margin-top: 35%;
+}
+a.globalBlue{
+    padding-left:70%;
 }
 
 /* services page Css */
