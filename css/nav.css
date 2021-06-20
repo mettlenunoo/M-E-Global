@@ -1,0 +1,108 @@
+/* navbar styles */
+.main-navbar {
+    position: relative;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 8px;
+}
+
+.navbar-brand{
+    padding-left: 6rem;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 500;
+    color:var(--navfooter-text);
+}
+
+.navbar-brand:first-child{
+    margin-right: 100px;
+}
+
+.navbar-dark .navbar-text {
+    font-weight: 500;
+    color:var(--navfooter-text);
+}
+
+.navbar-text{
+    margin-left: 6rem;
+}
+
+.navbar-dark .navbar-toggler{
+    border-color:var(--navfooter-text);
+}
+
+.nav-px-30{
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+/*media genetic screen*/
+@media (max-width: 1280px){
+    .navbar-text{
+        margin-left: 0rem;
+    }
+
+}
+
+
+/*media ipad pro*/
+@media(max-width: 1024px) {
+    .main-navbar {
+        top: 0px;
+    }
+
+
+    .navbar-brand{
+        padding-left: 0px;
+    }
+
+    .navbar-brand:first-child{
+        margin-right: 15px;
+    }
+
+    .navbar-text{
+        margin-left: 15px;
+    }
+}
+
+
+
+
+/*media tablets*/
+@media(max-width: 768px) {
+    .main-navbar {
+        top: 0px;
+    }
+
+    .navbar-brand{
+        padding-left: 2rem;
+    }
+
+    .navbar-text{
+        display:none
+    }
+
+}
+
+
+
+/* media phone */
+@media(max-width: 567px) {
+    .nav-px-30{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
+
+
+
+
+
+@media(max-width:480px) {
+
+}

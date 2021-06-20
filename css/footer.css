@@ -1,0 +1,29 @@
+.inner-padding-footer {
+    padding-top: 6rem;
+    padding-left: 7.375rem;
+    padding-right: 7.375rem;
+}
+
+
+
+
+
+
+@media(max-width: 768px){
+
+    .inner-padding-footer {
+        padding-top: 6rem;
+        padding-left: 0.375rem;
+        padding-right: 0.375rem;
+    }
+}
+
+@media(max-width: 567px){
+
+    .inner-padding-footer {
+        padding-top: 4.5rem;
+        padding-bottom: 3rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
